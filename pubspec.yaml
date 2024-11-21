@@ -1,0 +1,29 @@
+name: myapp
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # Tambahkan library untuk slider dan animasi jika diperlukan
+  carousel_slider: ^4.2.0  # Opsional: Library untuk slider
+  cached_network_image: ^3.2.3 # Opsional: Cache gambar dari jaringan
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/kucing.jpg
+    - assets/image/kucing2.jpg # Pastikan folder ini berisi gambar-gambar Anda
+
+  # Untuk font tambahan, tambahkan di sini jika diperlukan
